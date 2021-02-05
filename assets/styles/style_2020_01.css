@@ -1,0 +1,236 @@
+.pagelink {
+  padding-top: 65px;
+  margin-top: -65px; }
+
+.Feature__photoWrapper {
+  padding-top: 55px; }
+
+.global-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white; }
+  .global-header__inner {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 10; }
+    .global-header__inner p.menu {
+      width: 35px;
+      height: 35px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #4a4a4a;
+      border-radius: 4px;
+      cursor: pointer; }
+      .global-header__inner p.menu span {
+        width: 21px;
+        background-color: #4a4a4a;
+        height: 1px;
+        display: block;
+        position: relative;
+        transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1); }
+        .global-header__inner p.menu span::before {
+          position: absolute;
+          top: -7px;
+          left: 0;
+          content: ' ';
+          width: 21px;
+          background-color: #4a4a4a;
+          height: 1px;
+          display: block;
+          transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1); }
+        .global-header__inner p.menu span::after {
+          position: absolute;
+          top: 7px;
+          left: 0;
+          content: ' ';
+          width: 21px;
+          background-color: #4a4a4a;
+          height: 1px;
+          display: block;
+          transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1); }
+  .global-header__navmenu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translateY(-100%);
+    background-color: white;
+    overflow-y: scroll; }
+    .global-header__navmenu div.header__navmenu__inner {
+      padding-top: 110px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto; }
+      .global-header__navmenu div.header__navmenu__inner ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .global-header__navmenu div.header__navmenu__inner ul li {
+          font-size: 1.8rem;
+          margin-bottom: 30px; }
+          .global-header__navmenu div.header__navmenu__inner ul li a {
+            color: #4a4a4a; }
+          .global-header__navmenu div.header__navmenu__inner ul li:last-child {
+            margin-bottom: 0px; }
+  .global-header.drawer-open-navmenu div.global-header__inner p.menu {
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px; }
+    .global-header.drawer-open-navmenu div.global-header__inner p.menu span {
+      width: 21px;
+      background-color: transparent;
+      height: 1px;
+      display: block;
+      position: relative;
+      transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1); }
+      .global-header.drawer-open-navmenu div.global-header__inner p.menu span::before {
+        transform: rotate(45deg);
+        position: absolute;
+        top: 0px;
+        left: 0;
+        content: ' ';
+        width: 21px;
+        background-color: #4a4a4a;
+        height: 1px;
+        display: block;
+        transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1); }
+      .global-header.drawer-open-navmenu div.global-header__inner p.menu span::after {
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 0px;
+        left: 0;
+        content: ' ';
+        width: 21px;
+        background-color: #4a4a4a;
+        height: 1px;
+        display: block;
+        transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1); }
+  .global-header.drawer-open-navmenu div.global-header__navmenu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translateY(0%);
+    background-color: white;
+    overflow-y: scroll; }
+
+.Feature__news {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px dotted #4a4a4a;
+  border-bottom: 1px dotted #4a4a4a;
+  margin-bottom: 60px; }
+  .Feature__news__item {
+    margin-bottom: 10px;
+    font-size: 12px; }
+    .Feature__news__item a {
+      color: #4a4a4a; }
+    .Feature__news__item:last-child {
+      margin-bottom: 0px; }
+
+.Feature__snsWrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px; }
+  .Feature__snsWrapper__item {
+    width: 44px;
+    height: 44px;
+    margin-right: 20px; }
+    .Feature__snsWrapper__item:last-child {
+      margin-right: 0px; }
+    .Feature__snsWrapper__item img {
+      max-width: 100%; }
+
+.p-lifestyle {
+  margin-top: 55px; }
+  .p-lifestyle img {
+    max-width: 100%; }
+  .p-lifestyle-key {
+    margin-bottom: 60px; }
+    .p-lifestyle-key__image {
+      margin-bottom: 20px; }
+    .p-lifestyle-key__text {
+      margin-right: 20px;
+      margin-left: 20px;
+      color: #404040;
+      line-height: 1.7; }
+  .p-lifestyle-content {
+    margin-bottom: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column; }
+    .p-lifestyle-content:last-child {
+      margin-bottom: 0px; }
+    .p-lifestyle-content__photo {
+      margin-bottom: 20px; }
+    .p-lifestyle-content__text--title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+      line-height: 1.7;
+      color: #404040; }
+    .p-lifestyle-content__text--description {
+      line-height: 1.7;
+      color: #404040; }
+
+@media screen and (min-width: 800px) {
+  .p-lifestyle {
+    margin-top: 55px; }
+    .p-lifestyle img {
+      max-width: 100%; }
+    .p-lifestyle-key {
+      width: 100%;
+      max-width: 800px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 80px; }
+      .p-lifestyle-key__image {
+        margin-bottom: 20px; }
+      .p-lifestyle-key__text {
+        margin-right: 0px;
+        margin-left: 0px; }
+    .p-lifestyle-content {
+      width: 800px;
+      margin-bottom: 80px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      flex-direction: row; }
+      .p-lifestyle-content:last-child {
+        margin-bottom: 0px; }
+      .p-lifestyle-content__photo {
+        margin-bottom: 0px;
+        width: 40%;
+        margin-right: 4%; }
+      .p-lifestyle-content__text {
+        width: 56%; }
+        .p-lifestyle-content__text--title {
+          font-weight: bold;
+          font-size: 18px;
+          margin-bottom: 10px; } }
